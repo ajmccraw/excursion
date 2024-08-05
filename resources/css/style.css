@@ -12,3 +12,57 @@ header {
     border-radius: 5px;
     margin-top: 10px;
 }
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header, footer {
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+h1, h2 {
+    margin: 20px 0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+/* Video */
+video {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px 0;
+}
+
+/* Images */
+img {
+    width: 100%;
+    max-width: 300px;
+    margin: 20px 0;
+}
+
+.app {
+    max-width: 150px;
+}
+
+/* Links */
+.cta {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.cta:hover {
+    background-color: #0056b3;
+}
